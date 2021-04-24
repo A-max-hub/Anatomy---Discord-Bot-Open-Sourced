@@ -4,7 +4,7 @@ import discord, requests, random, threading, asyncio
 with open('cookies.txt', 'r') as cookies:
     cookies1 = cookies.read().splitlines()
 
-bot = commands.Bot(command_prefix='.?')
+bot = commands.Bot(command_prefix='.')
 
 @bot.event
 async def on_ready():
@@ -59,4 +59,4 @@ async def cookies(ctx):
 
 
 
-bot.run() # Token goes here
+bot.run(https://discord.com/api/oauth2/authorize?client_id=835657237946040331&permissions=0&scope=bot) # Token goes here
